@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import profile from '../assets/profile.png';
 
 export function About() {
   const { t } = useLanguage();
@@ -64,7 +65,7 @@ export function About() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-amber-600 rounded-3xl blur opacity-75" />
                 <div className="relative aspect-square rounded-3xl overflow-hidden border-4 border-black">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MjY5NDUwNnww&ixlib=rb-4.1.0&q=80&w=1080"
+                    src={profile}
                     alt="Gabriel Martinez - Event Producer"
                     className="w-full h-full object-cover"
                   />

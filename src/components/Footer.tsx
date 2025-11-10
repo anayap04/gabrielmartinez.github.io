@@ -12,20 +12,20 @@ export function Footer() {
     {
       icon: Mail,
       label: t.footer.email,
-      value: "gabriel.martinez@eventproducer.com",
-      href: "mailto:gabriel.martinez@eventproducer.com",
+      value: "djgabo86@gmail.com",
+      href: "mailto:djgabo86@gmail.com",
     },
     {
       icon: Phone,
       label: t.footer.phone,
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+57 300 8046817",
+      href: "tel:+573008046817",
     },
     {
       icon: Linkedin,
       label: t.footer.linkedin,
       value: "LinkedIn Profile",
-      href: "https://www.linkedin.com/in/gabrielmartinez",
+      href: "https://www.linkedin.com/in/gabriel-martinez-zapata-375952232/",
     },
   ];
 

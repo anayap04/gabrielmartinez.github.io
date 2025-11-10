@@ -47,7 +47,7 @@ export default function App() {
                 animate={{ opacity: [0.5, 1, 0.5] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                EP
+                GM
               </motion.span>
             </motion.div>
           </motion.div>
