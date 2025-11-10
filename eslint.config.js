@@ -15,6 +15,7 @@ export default defineConfig([
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
     ],
+    plugins: ["react-compiler"],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
