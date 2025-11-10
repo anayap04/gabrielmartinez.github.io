@@ -48,7 +48,7 @@ export const translations = {
       email: "Email",
       phone: "Phone",
       linkedin: "LinkedIn",
-      rights: "All rights reserved."
+      rights: "Made by: "
     }
   },
   es: {
@@ -100,7 +100,7 @@ export const translations = {
       email: "Correo",
       phone: "Teléfono",
       linkedin: "LinkedIn",
-      rights: "Todos los derechos reservados."
+      rights: "Hechо por: "
     }
   },
   fr: {
@@ -152,7 +152,7 @@ export const translations = {
       email: "Email",
       phone: "Téléphone",
       linkedin: "LinkedIn",
-      rights: "Tous droits réservés."
+      rights: "Fait par: "
     }
   }
 };

@@ -1,7 +1,8 @@
-import { Mail, Phone, Linkedin } from 'lucide-react';
-import { motion } from 'motion/react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { Mail, Phone, Linkedin } from "lucide-react";
+import { motion } from "motion/react";
+import { useLanguage } from "../contexts/LanguageContext";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import "../styles/globals.css";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -11,28 +12,32 @@ export function Footer() {
     {
       icon: Mail,
       label: t.footer.email,
-      value: 'gabriel.martinez@eventproducer.com',
-      href: 'mailto:gabriel.martinez@eventproducer.com'
+      value: "gabriel.martinez@eventproducer.com",
+      href: "mailto:gabriel.martinez@eventproducer.com",
     },
     {
       icon: Phone,
       label: t.footer.phone,
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: "+1 (555) 123-4567",
+      href: "tel:+15551234567",
     },
     {
       icon: Linkedin,
       label: t.footer.linkedin,
-      value: 'LinkedIn Profile',
-      href: 'https://www.linkedin.com/in/gabrielmartinez'
-    }
+      value: "LinkedIn Profile",
+      href: "https://www.linkedin.com/in/gabrielmartinez",
+    },
   ];
 
   return (
-    <footer id="contact" className="bg-black relative overflow-hidden" ref={ref}>
+    <footer
+      id="contact"
+      className="bg-black relative overflow-hidden"
+      ref={ref}
+    >
       {/* Top Border */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
-      
+
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-purple-950/20 via-transparent to-transparent" />
 
@@ -66,8 +71,10 @@ export function Footer() {
                 <motion.a
                   key={index}
                   href={info.href}
-                  target={info.icon === Linkedin ? '_blank' : undefined}
-                  rel={info.icon === Linkedin ? 'noopener noreferrer' : undefined}
+                  target={info.icon === Linkedin ? "_blank" : undefined}
+                  rel={
+                    info.icon === Linkedin ? "noopener noreferrer" : undefined
+                  }
                   className="group relative"
                   aria-label={`${info.label}: ${info.value}`}
                   initial={{ opacity: 0, y: 30 }}
@@ -77,7 +84,7 @@ export function Footer() {
                 >
                   {/* Card Background */}
                   <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/[0.02] rounded-2xl backdrop-blur-sm border border-white/10 group-hover:border-purple-500/50 transition-all duration-500" />
-                  
+
                   {/* Gradient Effect on Hover */}
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-600/0 to-amber-600/0 group-hover:from-purple-600/10 group-hover:to-amber-600/10 rounded-2xl transition-all duration-500" />
 
@@ -125,6 +132,12 @@ export function Footer() {
             </div>
             <div className="text-gray-500">
               © {new Date().getFullYear()} {t.footer.rights}
+              <a
+                className="from-purple-600 to-amber-600 bg-clip-text a-link"
+                href="https://www.linkedin.com/in/pandrea04/"
+              >
+                Paola Anaya
+              </a>
             </div>
           </motion.div>
         </div>
