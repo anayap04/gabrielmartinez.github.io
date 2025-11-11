@@ -3,7 +3,7 @@
   import react from '@vitejs/plugin-react-swc';
 
   export default defineConfig({
-    base: '/',
+    base: '/gabrielmartinez.github.io/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
