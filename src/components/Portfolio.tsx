@@ -49,11 +49,12 @@ export function Portfolio() {
     },
     {
       id: 4,
-      title: 'International Convention',
+      title: 'BLC 2022 - Los nuevos profesionales',
       category: 'Convention',
       image: 'https://images.unsplash.com/photo-1592654365675-f3c799bf0196?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25mZXJlbmNlJTIwdmVudWV8ZW58MXx8fHwxNzYyODEwOTQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
       description: 'Five-day international convention with simultaneous translation, exhibition floor, and networking lounges.',
-      type: 'image'
+      type: 'video',
+      videoUrl: 'https://www.instagram.com/p/CdWhNVhs6mrBk2BoxM2sv5wcpIqWyq3pyY44fY0/?hl=es'
     },
     {
       id: 5,
