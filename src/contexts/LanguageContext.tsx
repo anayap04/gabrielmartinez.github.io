@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { translations, Language, Translations } from '../translations';
+import { translations } from '../translations';
+import type { Translations, Language } from '../translations';
 
 interface LanguageContextType {
   language: Language;

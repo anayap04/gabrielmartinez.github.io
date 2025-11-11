@@ -9,7 +9,7 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Language } from '../translations';
+import type { Language } from '../translations';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
