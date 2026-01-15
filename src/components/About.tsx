@@ -8,7 +8,6 @@ import profile from '../assets/profile.png';
 export function About() {
   const { t } = useLanguage();
   const { ref, isVisible } = useScrollAnimation();
-
   const stats = [
     {
       icon: Calendar,
