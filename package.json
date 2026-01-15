@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anayap04.github.io/gabrielmartinez.github.io/",
+  "homepage": "http://gaboproducer.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
