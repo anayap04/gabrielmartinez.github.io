@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-swc';
 import viteImagemin from 'vite-plugin-imagemin';
 
   export default defineConfig({
-    base: '/gabrielmartinez.github.io/',
+    base: '/',
     plugins: [
       react(),
       viteImagemin({
